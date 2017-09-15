@@ -53,7 +53,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .syntax--comment {
-  color: #9E948D;
+  color: @syntax-color-comment-block;
 }
 
 .syntax--string {
@@ -86,6 +86,19 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 
 .syntax--storage.syntax--type {
   color: #FC580C;
+}
+
+.syntax--keyword.syntax--other {
+  color: #8e8279;
+}
+
+.syntax--comment .syntax--keyword.syntax--other {
+    color: @syntax-color-comment-block-tag;
+    font-weight: bold;
+}
+
+.syntax--comment .syntax--storage {
+    color: @syntax-color-comment-block-storage;
 }
 
 .syntax--entity.syntax--name.syntax--class, .syntax--entity.syntax--name.syntax--type.syntax--class {
@@ -179,10 +192,6 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 
 .syntax--entity.syntax--name.syntax--filename.syntax--find-in-files {
   color: #E6DB74;
-}
-
-.syntax--keyword.syntax--other {
-  color: #8e8279;
 }
 
 .syntax--meta.syntax--property-value, .syntax--support.syntax--constant.syntax--property-value, .syntax--constant.syntax--other.syntax--color {
