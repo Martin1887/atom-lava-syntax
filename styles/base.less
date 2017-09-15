@@ -73,7 +73,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .syntax--variable {
-  color: #EBCFB0;
+  color: @syntax-color-variable;
 }
 
 .syntax--keyword {
@@ -99,7 +99,19 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .syntax--entity.syntax--name.syntax--function {
-  color: #FC580C;
+  color: @syntax-color-function-declaration;
+}
+
+.syntax--function-call .syntax--entity.syntax--name.syntax--function {
+  color: @syntax-color-function-call;
+}
+
+.syntax--method-call .syntax--entity.syntax--name.syntax--function {
+  color: @syntax-color-method-call;
+}
+
+.syntax--method-call.syntax--static .syntax--entity.syntax--name.syntax--function {
+  color: @syntax-color-static-method-call;
 }
 
 .syntax--variable.syntax--parameter {
