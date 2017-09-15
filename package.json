@@ -1,0 +1,15 @@
+{
+  "name": "atom-lava-syntax",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "description": "A warm atom theme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/JoryHogeveen/atom-lava-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
