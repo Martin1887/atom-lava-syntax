@@ -1,15 +1,25 @@
 {
-  "name": "atom-lava-syntax",
-  "theme": "syntax",
-  "version": "0.2.0",
+  "bugs": {
+    "url": "https://github.com/JoryHogeveen/atom-lava-syntax/issues"
+  },
+  "dependencies": {},
   "description": "A warm atom theme",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/JoryHogeveen/atom-lava-syntax#readme",
   "keywords": [
     "syntax",
     "theme"
   ],
-  "repository": "https://github.com/JoryHogeveen/atom-lava-syntax",
   "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  }
+  "name": "atom-lava-syntax",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoryHogeveen/atom-lava-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.2.0"
 }
