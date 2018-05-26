@@ -3,7 +3,6 @@
 atom-text-editor {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
-  text-shadow: 0 1px 0 @syntax-text-shadow-color;
 }
 
 atom-text-editor .gutter {
@@ -30,7 +29,6 @@ atom-text-editor .indent-guide {
 
 atom-text-editor .invisible-character {
   color: @syntax-invisible-character-color;
-  text-shadow: none;
 }
 
 atom-text-editor .search-results .syntax--marker .region {
@@ -44,6 +42,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 
 atom-text-editor.is-focused .cursor {
   border-color: @syntax-cursor-color;
+  border-width: medium;
 }
 
 atom-text-editor.is-focused .selection .region {
@@ -51,7 +50,7 @@ atom-text-editor.is-focused .selection .region {
 }
 
 atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line {
-  background-color: #3B3633;
+  background-color: @syntax-cursor-line-background-color;
 }
 
 .syntax--comment {
@@ -59,7 +58,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .syntax--string {
-  color: @syntax-color-string;
+  color: #FDCA49;
 }
 
 .syntax--constant.syntax--numeric {
@@ -169,7 +168,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .syntax--meta.syntax--structure.syntax--dictionary.syntax--json .syntax--string.syntax--quoted.syntax--double.syntax--json {
-  color: @syntax-color-string;
+  color: #FDCA49;
 }
 
 .syntax--meta.syntax--diff, .syntax--meta.syntax--diff.syntax--header {
@@ -197,7 +196,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .syntax--meta.syntax--property-value, .syntax--support.syntax--constant.syntax--property-value, .syntax--constant.syntax--other.syntax--color {
-  color: @syntax-color-string;
+  color: #FDCA49;
 }
 
 .syntax--meta.syntax--structure.syntax--dictionary.syntax--json .syntax--string.syntax--quoted.syntax--double.syntax--json {
@@ -205,7 +204,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .syntax--meta.syntax--structure.syntax--dictionary.syntax--value.syntax--json .syntax--string.syntax--quoted.syntax--double.syntax--json {
-  color: @syntax-color-string;
+  color: #FDCA49;
 }
 
 .syntax--meta.syntax--property-name .syntax--support.syntax--type.syntax--property-name {
@@ -242,7 +241,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .syntax--markup.syntax--raw.syntax--inline.syntax--markdown {
-  color: @syntax-color-string;
+  color: #FDCA49;
 }
 
 .syntax--punctuation.syntax--definition.syntax--bold.syntax--markdown, .syntax--punctuation.syntax--definition.syntax--italic.syntax--markdown {
