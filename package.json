@@ -20,7 +20,7 @@
   "optionalDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Martin1887/atom-lava-syntax.git"
+    "url": "https://github.com/Martin1887/atom-lava-syntax.git"
   },
   "theme": "syntax",
   "version": "1.0.0"
