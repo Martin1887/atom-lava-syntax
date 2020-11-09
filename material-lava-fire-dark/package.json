@@ -10,6 +10,11 @@
     "categories": [
         "Themes"
     ],
+    "homepage": "https://github.com/Martin1887/atom-lava-syntax/tree/material/README.md",
+    "repository": {
+        "type": "https",
+        "url": "https://github.com/Martin1887/atom-lava-syntax/tree/material"
+    },
     "contributes": {
         "themes": [
             {
