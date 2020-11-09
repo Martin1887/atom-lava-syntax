@@ -1,0 +1,22 @@
+{
+    "name": "material-lava-fire-dark",
+    "displayName": "Material Lava Fire Dark",
+    "description": "A warm atom theme darker than Atom Lava and with less contrast than Fire Lava Dark",
+    "version": "1.0.0",
+    "publisher": "Martin1887",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Material Lava Fire Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/materialLavaFireDark-color-theme.json"
+            }
+        ]
+    }
+}
