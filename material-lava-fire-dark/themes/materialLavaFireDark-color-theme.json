@@ -4,10 +4,10 @@
     "colors": {
         "activityBarBadge.background": "#ffa000",
         "breadcrumb.activeSelectionForeground": "#ffa000",
-        "editor.background": "#1a150f",
-        "editor.foreground": "#ccbbaa",
+        "editor.background": "#18140d",
+        "editor.foreground": "#ccc4b8",
         "editor.lineHighlightBackground": "#261504",
-        "editor.selectionBackground": "#602626dd",
+        "editor.selectionBackground": "#601010bb",
         "editor.wordHighlightBackground": "#502626dd",
         "editor.wordHighlightStrongBackground": "#602626dd",
         "editor.symbolHighlightBackground": "#502626dd",
@@ -289,7 +289,6 @@
         //"problemsErrorIcon.foreground": "#f48771",
         //"problemsInfoIcon.foreground": "#75beff",
         //"problemsWarningIcon.foreground": "#cca700",
-        ""
         //"quickInput.background": "#252526",
         //"quickInput.foreground": "#cccccc",
         //"quickInputTitle.background": "#ffffff1b",
@@ -406,19 +405,19 @@
         {
             "scope": "comment",
             "settings": {
-                "foreground": "#878070"
+                "foreground": "#877770"
             }
         },
         {
             "scope": "string",
             "settings": {
-                "foreground": "#bb4040"
+                "foreground": "#bb4444"
             }
         },
         {
             "scope": "constant.numeric",
             "settings": {
-                "foreground": "#ff6026"
+                "foreground": "#dd2626"
             }
         },
         {
@@ -448,14 +447,14 @@
         {
             "scope": "storage",
             "settings": {
-                "foreground": "#bb8760",
+                "foreground": "#bb8770",
                 "fontStyle": ""
             }
         },
         {
             "scope": "storage.type",
             "settings": {
-                "foreground": "#bb8760"
+                "foreground": "#bb5026"
             }
         },
         {
@@ -473,7 +472,7 @@
         {
             "scope": "entity.name.function",
             "settings": {
-                "foreground": "#eeaa15",
+                "foreground": "#dda415",
                 "fontStyle": ""
             }
         },
@@ -493,14 +492,14 @@
         {
             "scope": "entity.other.attribute-name",
             "settings": {
-                "foreground": "#bb8726",
+                "foreground": "#aa8726",
                 "fontStyle": ""
             }
         },
         {
             "scope": "support.function",
             "settings": {
-                "foreground": "#cc8715",
+                "foreground": "#bb8715",
                 "fontStyle": ""
             }
         },
