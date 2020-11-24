@@ -5,7 +5,7 @@
         "activityBarBadge.background": "#ffa000",
         "breadcrumb.activeSelectionForeground": "#ffa000",
         "editor.background": "#18140d",
-        "editor.foreground": "#ccc4b8",
+        "editor.foreground": "#ccbba8",
         "editor.lineHighlightBackground": "#261504",
         "editor.selectionBackground": "#601010bb",
         "editor.wordHighlightBackground": "#502626dd",
@@ -411,13 +411,13 @@
         {
             "scope": "string",
             "settings": {
-                "foreground": "#bb4444"
+                "foreground": "#cc5044"
             }
         },
         {
             "scope": "constant.numeric",
             "settings": {
-                "foreground": "#dd2626"
+                "foreground": "#ff8700"
             }
         },
         {
